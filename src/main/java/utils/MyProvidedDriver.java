@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-public class MyProvided implements DriverSource {
+public class MyProvidedDriver implements DriverSource {
 
     @Override
     public WebDriver newDriver() {
