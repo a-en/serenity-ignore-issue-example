@@ -11,7 +11,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>1.2.4</serenity.version>
-        <serenity.maven.version>1.2.4</serenity.maven.version>
     </properties>
 
     <build>
