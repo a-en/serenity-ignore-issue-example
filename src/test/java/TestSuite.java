@@ -18,7 +18,7 @@ public class TestSuite {
     private MySteps mySteps;
 
     @Test
-    @Ignore
+    @Manual
     public void test1() throws Exception {
 
     }
@@ -28,4 +28,11 @@ public class TestSuite {
         mySteps.openGooglePage();
         mySteps.checkIfTitleMatches("Google");
     }
+
+    @Test
+    public void test3() {
+        mySteps.openGooglePage();
+        mySteps.search("serenity_bdd_text");
+    }
+
 }

@@ -16,4 +16,9 @@ public class MySteps extends ScenarioSteps {
     public void checkIfTitleMatches(String title) {
         assertEquals(title, googlePage.getTitle());
     }
+
+    @Step
+    public void search(String searchTerm) {
+        googlePage.search(searchTerm);
+    }
 }
